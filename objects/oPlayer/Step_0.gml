@@ -1,9 +1,7 @@
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+inputs = get_inputs()
 
-calc_movement(key_left, key_right, grav);
+calc_movement(inputs[?"key_left"], inputs[?"key_right"], grav);
 refresh_player_jumps(oPlayer, oWall);
-jump(oPlayer, key_jump);
+jump(oPlayer, inputs[?"key_jump"]);
 h_collision(oPlayer, horizontal_speed, oWall);
 y_collision(oPlayer, vertical_speed, oWall);

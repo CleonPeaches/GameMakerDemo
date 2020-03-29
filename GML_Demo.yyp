@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "18068253-6def-4fa0-a29c-8ae92829b5bd",
+            "Value": {
+                "id": "4b5b1dfb-8b52-4123-b30f-8a4b7d5bbd0c",
+                "resourcePath": "objects\/oCoin\/oCoin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "218a824a-fc3d-4841-8138-e8da37650b1f",
             "Value": {
                 "id": "fa69a1ae-aea2-4c9b-bd4f-18a3badc1325",
@@ -207,11 +215,27 @@
             }
         },
         {
+            "Key": "c8a904c7-7459-4ad5-9c67-299920f4f66f",
+            "Value": {
+                "id": "9ef2f5b5-e077-4446-9d13-cd27e7b71f19",
+                "resourcePath": "scripts\/get_inputs\/get_inputs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ca826524-cf43-4280-84da-8c645063b2a7",
             "Value": {
                 "id": "4c6ecabb-fa50-4810-9de5-4065c770b2b2",
                 "resourcePath": "scripts\/refresh_player_jumps\/refresh_player_jumps.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d5a53a5f-3cc8-4136-a0bb-5dcbd4dd3ca3",
+            "Value": {
+                "id": "fb2a04a4-fdba-4e6a-afd0-b72137ede033",
+                "resourcePath": "sprites\/sCoin\/sCoin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -252,7 +276,8 @@
         "017ef110-437e-455a-bf8b-da211978d3ef",
         "61e835ed-91f7-40cf-821d-e1e40b0bb7a6",
         "b4059595-35e4-4cfe-b05f-03d5c7b72ddf",
-        "ca826524-cf43-4280-84da-8c645063b2a7"
+        "ca826524-cf43-4280-84da-8c645063b2a7",
+        "c8a904c7-7459-4ad5-9c67-299920f4f66f"
     ],
     "tutorial": ""
 }
