@@ -146,7 +146,7 @@
             "Key": "61e835ed-91f7-40cf-821d-e1e40b0bb7a6",
             "Value": {
                 "id": "8e17930a-ba68-4a0d-b141-f1207afc2794",
-                "resourcePath": "scripts\/player_jump1\/player_jump1.yy",
+                "resourcePath": "scripts\/player_h_collision\/player_h_collision.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -199,6 +199,22 @@
             }
         },
         {
+            "Key": "b4059595-35e4-4cfe-b05f-03d5c7b72ddf",
+            "Value": {
+                "id": "fcb73a1e-5eaa-47d1-b05f-5d60d4537ad5",
+                "resourcePath": "scripts\/player_y_collision\/player_y_collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ca826524-cf43-4280-84da-8c645063b2a7",
+            "Value": {
+                "id": "4c6ecabb-fa50-4810-9de5-4065c770b2b2",
+                "resourcePath": "scripts\/player_is_earthbound\/player_is_earthbound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d789cbb6-9cee-49a6-90c4-8d1f2b60d5fa",
             "Value": {
                 "id": "eb522eed-a6a5-445e-99b0-05b13b7fa6ec",
@@ -234,7 +250,9 @@
     "script_order": [
         "234ac1eb-c0ae-4105-8082-b10c195ea8a9",
         "017ef110-437e-455a-bf8b-da211978d3ef",
-        "61e835ed-91f7-40cf-821d-e1e40b0bb7a6"
+        "61e835ed-91f7-40cf-821d-e1e40b0bb7a6",
+        "b4059595-35e4-4cfe-b05f-03d5c7b72ddf",
+        "ca826524-cf43-4280-84da-8c645063b2a7"
     ],
     "tutorial": ""
 }
