@@ -1,19 +1,17 @@
-/// h_collision(entity_object, horizontal_speed, wall_object)
-/// @description entity_h_collision(entity_object, horizontal_speed, wall_object)
-/// @param entity_object
-/// @param horizontal_speed
-/// @param wall_object
+/// h_collision(player_object, wall_object)
+/// @description h_collision(player_object, wall_object)
+/// @param player
+/// @param wall
 
-entity_object = argument0;
-horizontal_speed = argument1;
-wall_object = argument2;
+player = argument0;
+wall = argument1;
 
-if(place_meeting(entity_object.x+horizontal_speed, entity_object.y, wall_object))
+if(place_meeting(player.x+player.horizontal_speed, player.y, wall))
 {
-	while(!place_meeting(entity_object.x+sign(horizontal_speed), entity_object.y, wall_object))
+	while(!place_meeting(player.x+sign(player.horizontal_speed), player.y, wall))
 	{
-		entity_object.x += sign(horizontal_speed);
+		player.x += sign(player.horizontal_speed);
 	}
-	horizontal_speed = 0;
+	player.horizontal_speed = 0;
 }	
-entity_object.x += horizontal_speed;
+player.x += player.horizontal_speed;

@@ -1,19 +1,17 @@
-/// y_collision(entity_object, vertical_speed, wall_object)
-/// @description y_collision(entity_object, vertical_speed, wall_object)
-/// @param entity_object
-/// @param vertical_speed
-/// @param wall_object
+/// y_collision(player_object, wall_object)
+/// @description y_collision(player_object, wall_object)
+/// @param player
+/// @param wall
 
-entity_object = argument0;
-vertical_speed = argument1;
-wall_object = argument2;
+player = argument0;
+wall = argument1;
 
-if(place_meeting(entity_object.x, entity_object.y+vertical_speed, wall_object))
+if(place_meeting(player.x, player.y+player.vertical_speed, wall))
 {
-	while(!place_meeting(entity_object.x, entity_object.y+sign(vertical_speed), wall_object))
+	while(!place_meeting(player.x, player.y+sign(player.vertical_speed), wall))
 	{
-		entity_object.y += sign(vertical_speed);
+		player.y += sign(player.vertical_speed);
 	}
-	vertical_speed = 0;
+	player.vertical_speed = 0;
 }	
-entity_object.y += vertical_speed;
+player.y += player.vertical_speed;
