@@ -3,8 +3,8 @@
 /// @param player
 /// @param wall
 
-player = argument0;
-wall = argument1;
+var player = argument0;
+var wall = argument1;
 
 if(place_meeting(player.x+player.horizontal_speed, player.y, wall))
 {

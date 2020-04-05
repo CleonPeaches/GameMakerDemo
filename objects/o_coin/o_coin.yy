@@ -2,9 +2,28 @@
     "id": "18068253-6def-4fa0-a29c-8ae92829b5bd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oCoin",
+    "name": "o_coin",
     "eventList": [
-        
+        {
+            "id": "9628a0ab-feb1-4297-9c50-331288b0f1b2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "18068253-6def-4fa0-a29c-8ae92829b5bd"
+        },
+        {
+            "id": "e28ca354-05f4-4eb9-bd40-9296f3cf6f9a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "18068253-6def-4fa0-a29c-8ae92829b5bd"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

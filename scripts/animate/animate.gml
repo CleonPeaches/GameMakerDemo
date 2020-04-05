@@ -1,15 +1,30 @@
-/// animate(entity_object, inputs)
-/// @description animate(entity_object, inputs)
+/// animate(player_object, inputs)
+/// @description animate(player_object, inputs)
 /// @param player_object
 /// @param inputs
 
-entity_object = argument0;
+player = argument0;
 inputs = argument1;
 
-if(inputs[?"a"] and inputs[?"d"]) entity_object.sprite_index = s_player_reach_left_and_right;
-else if(inputs[?"w"] and inputs[?"s"]) entity_object.sprite_index = s_player_reach_up_and_down;
-else if(inputs[?"w"]) entity_object.sprite_index = s_player_reach_up;
-else if(inputs[?"a"]) entity_object.sprite_index = s_player_reach_left;
-else if(inputs[?"s"]) entity_object.sprite_index = s_player_reach_down;
-else if(inputs[?"d"]) entity_object.sprite_index = s_player_reach_right;
-else entity_object.sprite_index = s_player;
+if(inputs[?"a"] or inputs[?"d"]) 
+{
+	player.sprite_index = s_player_run;
+}
+else if(!place_meeting(player.x, player.y+1, o_wall)) 
+{
+	player.sprite_index = s_player_jump;
+	player.image_speed = 0;
+	if(sign(player.vertical_speed) > 0) 
+	{
+		player.image_index = 1;
+	}
+}
+else 
+{
+	player.sprite_index = s_player;
+}
+
+if(player.horizontal_speed != 0) 
+{
+	image_xscale = sign(player.horizontal_speed);
+}
