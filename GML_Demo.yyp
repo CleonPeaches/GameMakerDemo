@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "930eba91-36c7-41cb-aec3-f8079e600e2a",
+            "Value": {
+                "id": "09b8cfe1-e72b-4335-a263-a2930d84bfbe",
+                "resourcePath": "objects\/o_gun\/o_gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "972afb8e-21f4-4a51-b3fc-ae371194e660",
             "Value": {
                 "id": "d4c6ce9e-fae4-4285-8d07-d49983cb33b8",
@@ -307,6 +315,14 @@
             "Value": {
                 "id": "fb2a04a4-fdba-4e6a-afd0-b72137ede033",
                 "resourcePath": "sprites\/s_coin\/s_coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d609f5bf-abc8-490d-81a8-3ef7b7a08583",
+            "Value": {
+                "id": "17688cce-2fb1-4df5-9a14-9610b51bca3f",
+                "resourcePath": "sprites\/s_gun\/s_gun.yy",
                 "resourceType": "GMSprite"
             }
         },
