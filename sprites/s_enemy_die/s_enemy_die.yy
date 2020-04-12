@@ -2,7 +2,7 @@
     "id": "fc460c84-336b-4fd1-b410-a445bfee5f75",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_player_die",
+    "name": "s_enemy_die",
     "For3D": false,
     "HTile": false,
     "VTile": false,

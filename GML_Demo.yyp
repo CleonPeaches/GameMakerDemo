@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "554b5f44-a763-41ea-b7b5-8a55a836cd90",
+            "Value": {
+                "id": "9e033b72-b64e-4857-80d0-a421337a3fc5",
+                "resourcePath": "shaders\/sh_white\/sh_white.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "57396f79-e4a6-4125-836e-60f7fc6ca56b",
             "Value": {
                 "id": "6e90d029-14cf-40df-8499-bb5fe29939ca",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "9d4ebcbd-72d0-4c51-81cc-b2067cd5259d",
+            "Value": {
+                "id": "6ce6c8b1-4df6-4c5d-810f-2605a376e812",
+                "resourcePath": "objects\/o_dead\/o_dead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa83c4b2-baf3-4956-ac32-6e577f50f2cb",
             "Value": {
                 "id": "7d5036f0-610f-4ee8-a378-040a584c08f0",
@@ -332,6 +348,14 @@
                 "id": "d396b313-559f-4d83-b938-8ca4c67bbd20",
                 "resourcePath": "scripts\/animate\/animate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c497473c-3733-44b8-a81b-4d825dbb07c7",
+            "Value": {
+                "id": "fec71699-926c-4ace-b3bb-05baea264cf4",
+                "resourcePath": "views\/c497473c-3733-44b8-a81b-4d825dbb07c7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -434,7 +458,7 @@
             "Key": "fc460c84-336b-4fd1-b410-a445bfee5f75",
             "Value": {
                 "id": "b979de12-11f0-4c11-81d9-c90b3113cf89",
-                "resourcePath": "sprites\/s_player_die\/s_player_die.yy",
+                "resourcePath": "sprites\/s_enemy_die\/s_enemy_die.yy",
                 "resourceType": "GMSprite"
             }
         }

@@ -1,3 +1,5 @@
+vertical_speed += grav;
+
 if(!place_meeting(x, y+1, o_wall)) 
 {
 	sprite_index = s_enemy_jump;
@@ -15,6 +17,7 @@ else
 		image_xscale = sign(horizontal_speed);
 	}
 }
+
 
 h_collision(o_enemy, o_wall);
 y_collision(o_enemy, o_wall);
